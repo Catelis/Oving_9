@@ -3,7 +3,7 @@ from Sporsmaal import Sporsmaal
 
 def spmObjList():
 
-    file1 = open(r'C:\Users\cathr\OneDrive\Documents\uni\koding\Øving_9_Del_1\sporsmaalsfil.txt', 'r', encoding="utf-8")
+    file1 = open(r'C:\Users\Ny Bruker\Documents\GitHub\Oving_10\sporsmaalsfil.txt', 'r', encoding="utf-8")
     lines = file1.readlines()
  
     sporsmalObjList = []
