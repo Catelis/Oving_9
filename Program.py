@@ -3,7 +3,7 @@ from Sporsmaal import Sporsmaal
 
 def spmObjList():
 
-    file1 = open(r'C:\Users\Ny Bruker\Documents\GitHub\Oving_10\sporsmaalsfil.txt', 'r', encoding="utf-8")
+    file1 = open(r'C:\Users\cathr\OneDrive\Documents\GitHub\Oving_10\sporsmaalsfil.txt', 'r', encoding="utf-8")
     lines = file1.readlines()
  
     sporsmalObjList = []
@@ -22,7 +22,7 @@ for spm in spmList:
     print("\n\n")
     print(spm.spørsmål)
     
-    t = 0
+    t = 0 #teller for nummerering av svar alternativ
     for alt in spm.svarAlt.split(','):
         print(str(t) + ". " + alt.replace('[', '').replace(']', '').strip())
         t += 1
